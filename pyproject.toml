@@ -7,7 +7,9 @@ authors = [
     {name = "CarlosEduardoCardozo", email = "CarlosEduardoCardozo"},
 ]
 dependencies = [
-    "django>=4.2.4",
+    "django>=4.2.5",
+    "djangorestframework>=3.14.0",
+    "djangorestframework-simplejwt>=5.3.0",
 ]
 requires-python = ">=3.10"
 license = {text = "MIT"}
